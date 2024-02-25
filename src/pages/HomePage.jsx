@@ -14,27 +14,33 @@ const HomePage = () => {
     <>
       <section
         id="home"
-        className="home bg-gradient-to-l from-[#f7797d] via-[#fbd786] to-[#c6ffdd] dark:from-[#09101F] dark:via-[#09101F] dark:to-[#09101F] "
+        className="home bg-gradient-to-l from-[#f7797d] via-[#fbd786] to-[#c6ffdd] dark:from-[#09101F] dark:via-[#09101F] dark:to-[#09101F]"
       >
-        <div className="container py-16 md:py-28 lg:py-5">
+        <div className="container py-16 md:py-28 lg:py-10">
           <div className="flex flex-wrap justify-center items-center h-dvh">
             <div className="w-full lg:w-1/2">
               <h1
-                className="text-4xl md:text-5xl lg:text-6xl text-color-text dark:text-white font-semibold leading-tight lg:leading-tight pb-2 md:pb-6 animate__animated animate__fadeInUp"
-                style={{ animationDelay: "0.6s" }}
+                className="text-4xl md:text-5xl lg:text-6xl text-color-text dark:text-white font-semibold leading-tight lg:leading-tight pb-2 md:pb-6"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="500"
               >
                 Temukan Bakat Kreatifmu Bersama Kami !
               </h1>
               <p
-                className="text-base text-color-text dark:text-gray-300 md:text-lg pb-4 md:pb-6 animate__animated animate__fadeInUp"
-                style={{ animationDelay: "1s" }}
+                className="text-base text-color-text dark:text-gray-300 md:text-lg pb-4 md:pb-6"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="1000"
               >
                 "Menemukan dan Mengembangkan Bakat Kreatif: Jelajahi Kursus Kami
                 untuk Peningkatan Diri!"
               </p>
               <div
-                className="flex flex-wrap md:space-x-5 space-y-2 md:space-y-0 animate__animated animate__fadeInUp"
-                style={{ animationDelay: "1.4s" }}
+                className="flex flex-wrap md:space-x-5 space-y-2 md:space-y-0"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="1500"
               >
                 <Link
                   to="kelas"

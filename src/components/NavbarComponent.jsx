@@ -29,7 +29,7 @@ const NavbarComponent = () => {
         }
       >
         <Link to="">
-          <span className="text-2xl lg:text-3xl text-color-text dark:text-white font-normal">
+          <span className="text-2xl lg:text-2xl text-color-text dark:text-white font-normal">
             Website
             <span className="text-secondary-color dark:text-red-600 font-bold">
               Course
@@ -42,7 +42,7 @@ const NavbarComponent = () => {
           </Flowbite>
           <Navbar.Toggle className="text-color-text dark:text-white" />
         </div>
-        <Navbar.Collapse className="text-center bg-white dark:bg-[#16171D] dark:md:bg-transparent md:bg-transparent rounded-md mt-3 md:mt-0">
+        <Navbar.Collapse className="text-center bg-white dark:bg-[#1E293B] dark:md:bg-transparent md:bg-transparent rounded-md mt-3 md:mt-0">
           {navLinks.map((link) => {
             return (
               <NavLink
